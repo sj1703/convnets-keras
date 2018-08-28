@@ -3,7 +3,7 @@ from keras import backend as K
 from keras.engine import Layer
 from keras.layers.convolutional import Convolution2D
 from keras.layers.core import Lambda
-from keras.layers.core import Merge
+from keras.layers.core import merge
 
 
 def crosschannelnormalization(alpha=1e-4, k=2, beta=0.75, n=5, **kwargs):
